@@ -1,0 +1,40 @@
+services:
+  device1:
+    container_name: device1
+    build: .
+    command: ["python", "mutual_exclusion.py", "1"]
+    ports:
+      - "6000:6000"
+    volumes:
+      - ./recurso.txt:/app/recurso.txt
+      - ./:/app
+
+  device2:
+    container_name: device2
+    build: .
+    command: ["python", "mutual_exclusion.py", "2"]
+    ports:
+      - "6001:6001"
+    volumes:
+      - ./recurso.txt:/app/recurso.txt
+      - ./:/app
+
+  device3:
+    container_name: device3
+    build: .
+    command: ["python", "mutual_exclusion.py", "3"]
+    ports:
+      - "6002:6002"
+    volumes:
+      - ./recurso.txt:/app/recurso.txt
+      - ./:/app
+
+  device4:
+    container_name: device4
+    build: .
+    command: ["python", "mutual_exclusion.py", "4"]
+    ports:
+      - "6003:6003"
+    volumes:
+      - ./recurso.txt:/app/recurso.txt
+      - ./:/app

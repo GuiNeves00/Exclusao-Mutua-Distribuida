@@ -1,0 +1,5 @@
+Dispositivo 3 acessou em 2024-10-04 19:02:23.892903
+Dispositivo 1 acessou em 2024-10-04 19:02:33.985115
+Dispositivo 2 acessou em 2024-10-04 19:02:44.035702
+Dispositivo 4 acessou em 2024-10-04 19:02:54.106370
+Dispositivo 3 acessou em 2024-10-04 19:03:04.190150
